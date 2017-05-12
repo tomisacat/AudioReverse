@@ -14,6 +14,7 @@
 		F27B8A4A1EC58DB40093450B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F27B8A481EC58DB40093450B /* LaunchScreen.storyboard */; };
 		F27B8A551EC58DB40093450B /* AudioReverseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27B8A541EC58DB40093450B /* AudioReverseTests.swift */; };
 		F27B8A601EC58DB40093450B /* AudioReverseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27B8A5F1EC58DB40093450B /* AudioReverseUITests.swift */; };
+		F27B8A6E1EC58E1C0093450B /* guitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F27B8A6D1EC58E1C0093450B /* guitar.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F27B8A5B1EC58DB40093450B /* AudioReverseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioReverseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27B8A5F1EC58DB40093450B /* AudioReverseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioReverseUITests.swift; sourceTree = "<group>"; };
 		F27B8A611EC58DB40093450B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F27B8A6D1EC58E1C0093450B /* guitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = guitar.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		F27B8A3E1EC58DB40093450B /* AudioReverse */ = {
 			isa = PBXGroup;
 			children = (
+				F27B8A6D1EC58E1C0093450B /* guitar.m4a */,
 				F27B8A3F1EC58DB40093450B /* AppDelegate.swift */,
 				F27B8A411EC58DB40093450B /* ViewController.swift */,
 				F27B8A431EC58DB40093450B /* Main.storyboard */,
@@ -237,6 +240,7 @@
 			files = (
 				F27B8A4A1EC58DB40093450B /* LaunchScreen.storyboard in Resources */,
 				F27B8A471EC58DB40093450B /* Assets.xcassets in Resources */,
+				F27B8A6E1EC58E1C0093450B /* guitar.m4a in Resources */,
 				F27B8A451EC58DB40093450B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +423,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P58JN8D62L;
 				INFOPLIST_FILE = AudioReverse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.tomisacat.AudioReverse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,6 +437,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P58JN8D62L;
 				INFOPLIST_FILE = AudioReverse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.tomisacat.AudioReverse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
